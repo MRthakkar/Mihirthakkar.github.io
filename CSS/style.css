@@ -1,0 +1,161 @@
+/* Base Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+header .nav-link {
+  color: #fff !important;
+  transition: color 0.3s ease;
+}
+
+header .nav-link:hover {
+  color: #ff6347 !important;
+}
+
+/* Hero Section Styling */
+#hero {
+  background: url('../img/hero-bg.jpg') center / cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+#hero h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  animation: fadeInDown 1s;
+}
+
+#hero p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  animation: fadeInUp 1s;
+}
+
+#hero .btn {
+  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  animation: bounce 1s infinite;
+}
+
+/* About Section */
+#about h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+#about p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+#about .btn-primary {
+  background-color: #ff6347;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+#about .btn-primary:hover {
+  background-color: #e5533d;
+}
+
+/* Project Card Styling */
+#projects .project-card {
+  transition: transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#projects .project-card:hover {
+  transform: scale(1.05);
+}
+
+#projects .project-card img {
+  object-fit: cover;
+}
+
+/* Modal Styling */
+.modal-content {
+  border: 1px solid #888;
+  border-radius: 8px;
+}
+
+.close {
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: black;
+}
+
+/* Skills Section */
+#skills i {
+  color: #ff6347;
+  font-size: 2.5rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+#skills .col-md-2:hover i {
+  color: #e5533d;
+  transform: scale(1.2);
+}
+
+/* Contact Section */
+#contact h2 {
+  font-size: 2rem;
+}
+
+#contact a {
+  color: #ff6347;
+  transition: color 0.3s;
+}
+
+#contact a:hover {
+  color: #e5533d;
+}
+
+#contact .fa-2x {
+  color: #ff6347;
+  transition: color 0.3s;
+}
+
+#contact .fa-2x:hover {
+  color: #e5533d;
+}
+
+/* Footer Styling */
+footer {
+  background: #222;
+  color: #bbb;
+  padding: 1rem 0;
+}
+
+footer a {
+  color: #ff6347;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #e5533d;
+}
